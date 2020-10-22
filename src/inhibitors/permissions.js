@@ -1,4 +1,4 @@
-const { Inhibitor } = require('@swift/core');
+const { Inhibitor } = require('swift');
 
 module.exports = class extends Inhibitor {
    async run(message, command) {

@@ -1,4 +1,4 @@
-const { Serializer } = require('@swift/core');
+const { Serializer } = require('swift');
 const URL = require('url');
 
 module.exports = class extends Serializer {

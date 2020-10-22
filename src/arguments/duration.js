@@ -1,4 +1,4 @@
-const { Argument, Duration } = require('@swift/core');
+const { Argument, Duration } = require('swift');
 
 module.exports = class extends Argument {
    run(arg, possible, message) {

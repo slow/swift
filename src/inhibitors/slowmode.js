@@ -1,4 +1,4 @@
-const { Inhibitor, RateLimitManager } = require('@swift/core');
+const { Inhibitor, RateLimitManager } = require('swift');
 
 module.exports = class extends Inhibitor {
    constructor(...args) {

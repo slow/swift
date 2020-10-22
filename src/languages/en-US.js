@@ -1,4 +1,4 @@
-const { Language, util } = require('@swift/core');
+const { Language, util } = require('swift');
 
 module.exports = class extends Language {
    constructor(...args) {

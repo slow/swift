@@ -1,4 +1,4 @@
-const { Event, util } = require('@swift/core');
+const { Event, util } = require('swift');
 const { Team } = require('discord.js');
 let retries = 0;
 
@@ -44,6 +44,6 @@ module.exports = class extends Event {
          );
       }
 
-      return this.client.emit('@swift/coreReady');
+      return this.client.emit('swiftReady');
    }
 };

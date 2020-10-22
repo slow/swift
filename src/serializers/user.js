@@ -1,4 +1,4 @@
-const { Serializer } = require('@swift/core');
+const { Serializer } = require('swift');
 
 module.exports = class extends Serializer {
    async deserialize(data, piece, language) {

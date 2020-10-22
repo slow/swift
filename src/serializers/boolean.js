@@ -1,4 +1,4 @@
-const { Serializer } = require('@swift/core');
+const { Serializer } = require('swift');
 const truths = ['1', 'true', '+', 't', 'yes', 'y', 'on'];
 const falses = ['0', 'false', '-', 'f', 'no', 'n', 'off'];
 

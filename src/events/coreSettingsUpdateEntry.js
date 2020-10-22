@@ -1,4 +1,4 @@
-const { Event } = require('@swift/core');
+const { Event } = require('swift');
 const gateways = ['users', 'clientStorage'];
 
 module.exports = class extends Event {

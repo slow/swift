@@ -1,4 +1,4 @@
-const { Extendable } = require('@swift/core');
+const { Extendable } = require('swift');
 const { TextChannel, DMChannel, User, APIMessage } = require('discord.js');
 
 module.exports = class extends Extendable {

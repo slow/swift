@@ -1,4 +1,4 @@
-const { Extendable } = require('@swift/core');
+const { Extendable } = require('swift');
 const {
    Permissions: { FLAGS },
    DMChannel,

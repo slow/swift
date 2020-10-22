@@ -1,4 +1,4 @@
-const { Argument } = require('@swift/core');
+const { Argument } = require('swift');
 
 module.exports = class extends Argument {
    async run(arg, possible, message) {

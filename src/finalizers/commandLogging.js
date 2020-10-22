@@ -1,4 +1,4 @@
-const { Finalizer, Colors } = require('@swift/core');
+const { Finalizer, Colors } = require('swift');
 
 module.exports = class extends Finalizer {
    constructor(...args) {

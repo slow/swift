@@ -1,4 +1,4 @@
-const { MultiArgument } = require('@swift/core');
+const { MultiArgument } = require('swift');
 
 module.exports = class extends MultiArgument {
    constructor(...args) {

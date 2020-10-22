@@ -1,4 +1,4 @@
-const { Inhibitor, util } = require('@swift/core');
+const { Inhibitor, util } = require('swift');
 const {
    Permissions,
    Permissions: { FLAGS }

@@ -1,4 +1,4 @@
-const { Serializer } = require('@swift/core');
+const { Serializer } = require('swift');
 const { Role } = require('discord.js');
 
 module.exports = class extends Serializer {

@@ -1,4 +1,4 @@
-const { Finalizer, RateLimitManager } = require('@swift/core');
+const { Finalizer, RateLimitManager } = require('swift');
 
 module.exports = class extends Finalizer {
    constructor(...args) {

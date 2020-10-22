@@ -1,4 +1,4 @@
-const { Event } = require('@swift/core');
+const { Event } = require('swift');
 
 module.exports = class extends Event {
    constructor(...args) {

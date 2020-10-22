@@ -1,4 +1,4 @@
-const { Monitor, Stopwatch } = require('@swift/core');
+const { Monitor, Stopwatch } = require('swift');
 
 module.exports = class extends Monitor {
    constructor(...args) {
