@@ -1,0 +1,17 @@
+{
+   "name": "swift",
+   "version": "1.0.0",
+   "description": "A discord.js framework previously known as klasa with added support for discord.js#v12",
+   "license": "Unlicensed",
+   "author": "eternal",
+   "main": "src/index.js",
+   "dependencies": {
+      "fs-nextra": "^0.4.7"
+   },
+   "peerDependencies": {
+      "discord.js": "^12.2.0"
+   },
+   "engines": {
+      "node": ">=10.1.0"
+   }
+}
