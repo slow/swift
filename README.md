@@ -4,5 +4,3 @@ A discord.js framework previously known as klasa with added support for discord.
 # Documentation
 Documentation can be found at https://klasa.js.org/
 
-# Support
-- eternal#1000
